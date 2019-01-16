@@ -34,3 +34,32 @@ _____________________________
 
 
 REQUEST TEXTO ----HTTP ----> RESPONSE
+
+Protocolo HTTP
+- Es diferente para request y response
+- Request: COnsta de 3 partes:
+	* Separadas por espacio
+	* Nombre del metodo
+
+- Response: (Status line) COnsta de 3 partes
+	* Versión HTTP
+	* Código de estatus de la respuesta.
+	* Descripción del código de estatus de la respuesta.
+
+
+	HTTP/1.1 200 OK
+	HTTP/1.1 404 Not Found 
+
+- El código de estatus es un entero de 3 dígitos. El primer dígito sirve para identificar la categoría de la respuesta.
+
+Navegador identifica:
+- Content-Lenght
+- Content-Type
+
+En la primera lína va el método (GET, POST)
+
+Para cifrar información por HTTP: HTTPS 
+
+
+https -> ssl
+http -> http 
