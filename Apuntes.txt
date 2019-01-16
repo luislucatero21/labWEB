@@ -1,6 +1,36 @@
+== Clase 1
 MEAN 
 - Mongo DB
 - Express / NodeJS
 - Angular
 
 Mongo db <-> ResT, NodeJS, Express <-> Angular, Bootstrap (Responsivo)
+
+Procolo HTTP
+- HyperText Transfer Protocol.
+- Es un protocolo de comunicación entre sistenmas distribuidos. Acceso a "recursos" en sistemas remotos.
+- La comunicación se realiza principalmente por medio de TCP/IP, pero se puede utilizar otro protocolo de transporte.
+- Puerto por default: 80. Se puede utilizar otro puerto.
+- RFC 7230 al RFC 7240 (https://tools.ietf.org/html/rfc7230)
+
+Servidor Aplicaciones
+_____________________________
+| 							|
+|	http://-[url]-	:80		|
+|					:8080 	|
+|___________________________|
+
+- Información que puede ser identificada por medio de una URL (Uniform Resource Locator)
+- Un recurso puede ser:
+	- Archivo texto.
+	- Imagen.
+	- Resultado de una consulta a una base de datos.
+	- Vídeo.
+	- Sonido.
+	- Etc.
+
+- http://www.midominio.com.mx:5318/ruta/del/recurso?variable1=valor1&valor2=valor2
+ protocolo	host			puerto 	ruta recurso (URI)		consulta (query string)
+
+
+REQUEST TEXTO ----HTTP ----> RESPONSE
