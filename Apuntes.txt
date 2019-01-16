@@ -1,0 +1,6 @@
+MEAN 
+- Mongo DB
+- Express / NodeJS
+- Angular
+
+Mongo db <-> ResT, NodeJS, Express <-> Angular, Bootstrap (Responsivo)
